@@ -81,40 +81,47 @@ h1, h2, h3, h4, h5 {
 .container header {
 
 padding-top: 20px;
+display: inline-block;
 }
 
-.logo{
+.container header .logo{
 
-	margin-left: 700px;
+	
+	display: inline-block;
+	border: solid 2px red;
+	
 }
 
 
 .container header li {
 
 	display: inline-block;
+	width: 12%;
+	padding-left: 40px;
+	padding-top: 20px;
 	
 
 }
 
-section{
-	display: inline-block;
-	position: relative;
-	
-}
+
 
 .mainImage{
 
-	margin-left: 500px;
+	border: solid 2px red;
+	
 	display: inline-block;
-	padding-bottom: 200px;
+	
+
 }
 
 h1 {
 
 	margin-top: 200px;
 	font-size: 50px;
+	
 	display: inline-block;
-
+	
+	
 }
 
 hr {
