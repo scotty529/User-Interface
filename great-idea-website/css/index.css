@@ -14,8 +14,8 @@ fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, canvas, details, embed, 
 figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
+menu, output, ruby, section, summary,
+time,nav, mark, audio, video {
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -24,10 +24,17 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
+
+
+
+article, nav, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, section {
 	display: block;
 }
+
+*/
+
+
 body {
 	line-height: 1;
 }
@@ -64,3 +71,57 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+.container {
+   
+	width:876px;
+	margin: 0 auto;
+}
+
+.container header {
+
+padding-top: 20px;
+}
+
+.logo{
+
+	margin-left: 700px;
+}
+
+
+.container header li {
+
+	display: inline-block;
+	
+
+}
+
+section{
+	display: inline-block;
+	position: relative;
+	
+}
+
+.mainImage{
+
+	margin-left: 500px;
+	display: inline-block;
+	padding-bottom: 200px;
+}
+
+h1 {
+
+	margin-top: 200px;
+	font-size: 50px;
+	display: inline-block;
+
+}
+
+hr {
+    display: block;
+    height: 1.5px;
+    border: 0;
+    border-top: 1px solid black;
+    margin: 1em 0;
+    padding: 0;
+}
